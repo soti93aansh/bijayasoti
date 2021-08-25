@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio Website</title>
     <link rel="stylesheet" href="css/Style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
     
 </head>
 <body>
@@ -22,5 +24,12 @@
         </div>
     </section>
 
-        
+    <!-- footer section -->
+    <div>
+    <?php include "Footer.php"; ?>
+    </div>
+    <!-- including JS Script -->
+    <script src="script/animation.js"></script>
 </body>
+</html>
+
